@@ -1,0 +1,347 @@
+/* =========================================
+   1. VARIABLES GLOBALES Y PALETAS DE COLOR
+   ========================================= */
+:root {
+    /* Fondos y Textos */
+    --bg-body: #f8fafc; 
+    --bg-surface: #ffffff;
+    --text-main: #0f172a; 
+    --text-muted: #64748b;
+    --border: #cbd5e1;
+    
+    /* GPOVALLAS: ECOVALLAS (Naranja) */
+    --eco-main: #ea580c; 
+    --eco-light: #fff7ed;
+    
+    /* GPOVALLAS: VIA VERDE (Verde) */
+    --vv-main: #16a34a;  
+    --vv-light: #f0fdf4;
+    
+    /* GPOVALLAS: BIOBOX (Azul) */
+    --bb-main: #2563eb;  
+    --bb-light: #eff6ff;
+
+    /* Tema Activo (Inyectado por JS dinámicamente) */
+    --theme-color: #0f172a; 
+    --theme-light: #f1f5f9;
+    
+    /* Sombras Elevadas */
+    --shadow-sm: 0 4px 6px -1px rgb(0 0 0 / 0.05);
+    --shadow-md: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 20px 25px -5px rgb(0 0 0 / 0.15);
+}
+
+/* =========================================
+   2. RESET Y BASE
+   ========================================= */
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Inter', sans-serif; 
+}
+
+body { 
+    background-color: var(--bg-body); 
+    color: var(--text-main); 
+    height: 100vh; 
+    overflow: hidden; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+/* Scrollbars Globales Estilizados */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+/* =========================================
+   3. VISTA 1: PUERTA DE ENTRADA (INTRO)
+   ========================================= */
+#intro-view { 
+    position: absolute; inset: 0; 
+    display: flex; flex-direction: column; align-items: center; justify-content: center; 
+    background: var(--bg-body); z-index: 100; 
+    transition: opacity 0.6s ease, transform 0.6s ease; 
+}
+
+#intro-view.fade-out { 
+    opacity: 0; transform: scale(1.05); pointer-events: none; 
+}
+
+.gpovallas-logo { 
+    font-size: 3.5rem; font-weight: 900; letter-spacing: 2px; 
+    color: #0f172a; margin-bottom: 60px; 
+}
+
+.intro-grid { display: flex; gap: 40px; }
+
+.intro-card { 
+    width: 260px; height: 300px; 
+    background: var(--bg-surface); border-radius: 16px; 
+    display: flex; flex-direction: column; align-items: center; justify-content: center; 
+    cursor: pointer; transition: 0.3s; 
+    border: 2px solid transparent; box-shadow: var(--shadow-md); 
+}
+
+.intro-card.eco:hover { border-color: var(--eco-main); background: var(--eco-light); transform: translateY(-10px); }
+.intro-card.vv:hover { border-color: var(--vv-main); background: var(--vv-light); transform: translateY(-10px); }
+.intro-card.bb:hover { border-color: var(--bb-main); background: var(--bb-light); transform: translateY(-10px); }
+
+.intro-title { font-size: 1.6rem; font-weight: 900; }
+.eco .intro-title { color: var(--eco-main); }
+.vv .intro-title { color: var(--vv-main); }
+.bb .intro-title { color: var(--bb-main); }
+
+/* =========================================
+   4. VISTA 2: DIAGRAMA ER Y TOPBAR
+   ========================================= */
+#canvas-view { 
+    flex: 1; display: flex; flex-direction: column; 
+    opacity: 0; pointer-events: none; 
+    transition: opacity 0.8s ease 0.3s; position: relative; 
+}
+#canvas-view.active { opacity: 1; pointer-events: all; }
+
+/* Header del Diagrama */
+.topbar { 
+    background: var(--bg-surface); padding: 16px 40px; 
+    border-bottom: 1px solid var(--border); 
+    display: flex; justify-content: space-between; align-items: center; z-index: 10; 
+}
+.topbar-left { display: flex; align-items: center; gap: 24px; flex: 1; }
+.btn-volver { background: none; border: none; font-size: 0.9rem; font-weight: 700; color: var(--text-muted); cursor: pointer; transition: 0.2s; }
+.btn-volver:hover { color: var(--theme-color); }
+.topbar-title { font-size: 1.2rem; font-weight: 900; color: var(--theme-color); letter-spacing: 1px; }
+
+/* Filtro Mensual */
+.filter-group { 
+    display: flex; align-items: center; gap: 10px; margin-left: 24px; 
+    background: var(--theme-light); padding: 6px 14px; 
+    border-radius: 20px; border: 1px solid var(--theme-color); transition: 0.2s;
+}
+.filter-group label { font-size: 0.65rem; font-weight: 800; color: var(--theme-color); text-transform: uppercase; }
+.filter-group select { background: transparent; border: none; font-weight: 700; color: var(--text-main); outline: none; cursor: pointer; font-size: 0.8rem;}
+
+/* Buscador Global */
+.search-wrapper { position: relative; margin-left: 12px; }
+#global-search { 
+    padding: 10px 16px; border-radius: 8px; border: 1px solid var(--border); 
+    width: 280px; font-size: 0.85rem; outline: none; transition: 0.2s; background: var(--bg-body);
+}
+#global-search:focus { border-color: var(--theme-color); box-shadow: 0 0 0 3px var(--theme-light); background: var(--bg-surface); }
+.search-dropdown { 
+    position: absolute; top: 100%; left: 0; width: 100%; background: var(--bg-surface); 
+    border: 1px solid var(--border); border-radius: 8px; margin-top: 8px; 
+    box-shadow: var(--shadow-md); max-height: 300px; overflow-y: auto; display: none; z-index: 1000; 
+}
+.search-dropdown.active { display: block; }
+.search-item { padding: 12px 16px; border-bottom: 1px solid var(--border); cursor: pointer; transition: 0.2s; }
+.search-item:last-child { border-bottom: none; }
+.search-item:hover { background: var(--theme-light); border-left: 3px solid var(--theme-color); }
+.search-item b { font-size: 0.85rem; color: var(--text-main); }
+.search-item small { font-size: 0.7rem; color: var(--text-muted); font-family: monospace; display: block; margin-top: 4px; }
+
+.topbar-actions { display: flex; gap: 12px; }
+.btn-action { 
+    background: var(--theme-color); color: white; border: none; 
+    padding: 10px 20px; border-radius: 8px; font-weight: 700; 
+    cursor: pointer; font-size: 0.85rem; box-shadow: var(--shadow-sm); transition: 0.2s;
+}
+.btn-action:hover { filter: brightness(1.15); transform: translateY(-2px); }
+.btn-action.outline { background: var(--bg-surface); color: var(--theme-color); border: 2px solid var(--theme-color); box-shadow: none; }
+.btn-action.outline:hover { background: var(--theme-light); }
+
+/* Área de Scroll y Lienzo SVG */
+.diagram-area { 
+    flex: 1; overflow-x: auto; overflow-y: hidden; 
+    padding: 60px 40px; display: flex; align-items: flex-start; gap: 100px; 
+    position: relative; scroll-behavior: smooth; 
+}
+
+/* FIX CORTE DERECHO: Forza un margen real al final del scroll */
+.diagram-area::after { 
+    content: ''; 
+    min-width: 60px; 
+    height: 10px; 
+    flex-shrink: 0; /* Previene que Flexbox elimine este bloque */
+}
+
+#svg-layer { 
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+    pointer-events: none; z-index: 0; min-width: 4000px; 
+}
+
+/* =========================================
+   5. COLUMNAS Y NODOS (CAJAS DE DATOS)
+   ========================================= */
+.column { 
+    display: flex; flex-direction: column; gap: 16px; 
+    min-width: 260px; 
+    width: max-content; 
+    max-height: 75vh; z-index: 1; opacity: 0; 
+    transform: translateX(-20px); animation: fadeInRight 0.4s ease forwards; 
+    flex-shrink: 0; /* FIX ABSOLUTO: Evita que el navegador comprima las columnas */
+}
+
+.col-header { 
+    font-size: 0.75rem; text-transform: uppercase; font-weight: 800; 
+    text-align: center; margin-bottom: 12px; 
+    border-bottom: 2px solid var(--theme-light); padding-bottom: 8px; color: var(--text-muted); 
+}
+
+.col-scroll { 
+    overflow-y: auto; padding: 4px; display: flex; flex-direction: column; gap: 16px; 
+}
+
+.node { 
+    background: var(--bg-surface); border: 2px solid var(--border); 
+    border-radius: 12px; padding: 16px; cursor: pointer; text-align: center; 
+    position: relative; z-index: 2; transition: all 0.2s; box-shadow: var(--shadow-sm);
+}
+.node:hover { border-color: var(--theme-color); transform: translateY(-2px); }
+.node.selected { border-color: var(--theme-color); background: var(--theme-light); box-shadow: 0 0 0 4px var(--bg-body); }
+.node.disabled { opacity: 0.5; cursor: not-allowed; border-style: dashed; }
+
+.node-title { font-size: 0.9rem; font-weight: 800; color: var(--text-main); margin-bottom: 4px; }
+.node-sub { font-size: 0.7rem; color: var(--text-muted); }
+.node-val { font-family: 'JetBrains Mono', monospace; font-size: 1.15rem; font-weight: 900; color: var(--theme-color); margin-top: 8px; }
+
+/* Puntos conectores visuales (Nodos SVG) */
+.node.selected::after { content: ''; position: absolute; top: 50%; right: -6px; width: 10px; height: 10px; border-radius: 50%; background: var(--theme-color); transform: translateY(-50%); z-index: 3; }
+.node.has-incoming::before { content: ''; position: absolute; top: 50%; left: -6px; width: 10px; height: 10px; border-radius: 50%; background: var(--theme-color); transform: translateY(-50%); z-index: 3; }
+
+/* Nodo Final: Expediente Técnico directamente en el Diagrama */
+.node-final { 
+    width: 340px; min-width: 340px; padding: 0; overflow: hidden; 
+    cursor: default; border-color: var(--theme-color); 
+    box-shadow: var(--shadow-md); border: 2px solid var(--theme-color); 
+    border-radius: 12px; background: var(--bg-surface);
+}
+.node-final:hover { transform: none; }
+.nf-header { background: var(--theme-color); color: white; padding: 20px; text-align: center; }
+.nf-id { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; opacity: 0.8; }
+.nf-title { font-size: 1.2rem; font-weight: 900; margin-top: 4px; }
+.nf-body { padding: 16px 20px; display: flex; flex-direction: column; gap: 8px; max-height: 45vh; overflow-y: auto; }
+.nf-row { display: flex; justify-content: space-between; border-bottom: 1px dashed var(--border); padding: 8px 0; }
+.nf-label { font-size: 0.75rem; font-weight: 600; color: var(--text-muted); }
+.nf-val { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; font-weight: 800; }
+.nf-total { background: var(--theme-light); padding: 16px 20px; text-align: center; border-top: 1px solid var(--border); }
+.nf-total-label { font-size: 0.7rem; font-weight: 800; color: var(--theme-color); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; }
+.nf-total-val { font-family: 'JetBrains Mono', monospace; font-size: 1.5rem; font-weight: 900; color: var(--text-main); }
+
+/* =========================================
+   6. MODALES EJECUTIVOS ADAPTABLES
+   ========================================= */
+.modal-overlay { 
+    position: fixed; inset: 0; 
+    background: rgba(15, 23, 42, 0.6); backdrop-filter: blur(5px); 
+    display: flex; justify-content: center; align-items: center; 
+    opacity: 0; pointer-events: none; transition: 0.3s; z-index: 1000; padding: 20px; 
+}
+.modal-overlay.active { opacity: 1; pointer-events: all; }
+
+.modal-box { 
+    background: var(--bg-surface); border-radius: 16px; 
+    width: 650px; 
+    max-width: 95vw; max-height: 90vh; 
+    transform: scale(0.95); transition: 0.3s; 
+    display: flex; flex-direction: column; overflow: hidden; 
+    border-top: 6px solid var(--theme-color); box-shadow: var(--shadow-lg); 
+}
+.modal-overlay.active .modal-box { transform: scale(1); }
+
+/* Encabezado del Modal */
+.modal-header { 
+    background: var(--theme-light); color: var(--theme-color); 
+    padding: 24px 32px; text-align: center; position: relative; flex-shrink: 0; border-bottom: 1px solid var(--border);
+}
+.modal-header h2 { font-weight: 900; font-size: 1.5rem; color: var(--text-main); }
+.modal-header div { font-size: 0.85rem; font-weight: 600; color: var(--text-muted); margin-top: 6px; }
+
+.modal-close { 
+    position: absolute; top: 50%; right: 24px; transform: translateY(-50%); 
+    background: var(--border); border: none; color: var(--text-main); 
+    width: 32px; height: 32px; border-radius: 50%; font-size: 1.2rem; 
+    cursor: pointer; display: flex; align-items: center; justify-content: center; transition: 0.2s;
+}
+.modal-close:hover { background: var(--text-main); color: white; }
+
+/* Cuerpo del Modal */
+.modal-body { 
+    padding: 32px; overflow-y: auto; flex: 1; background: var(--bg-surface);
+}
+
+/* Sección de Resumen dentro del Modal */
+.summary-section { text-align: center; padding: 20px; background: var(--theme-light); border-radius: 12px; margin-bottom: 24px; border: 1px solid var(--border); }
+#md-lbl-total { font-size: 0.75rem; font-weight: 800; text-transform: uppercase; color: var(--theme-color); margin-bottom: 8px;}
+#md-total { font-family: 'JetBrains Mono', monospace; font-size: 2.8rem; font-weight: 900; color: var(--theme-color); letter-spacing: -1px; }
+
+.data-row { display: flex; justify-content: space-between; padding: 12px 16px; border-bottom: 1px solid var(--border); font-size: 0.85rem; background: var(--bg-body); margin-bottom: 4px; border-radius: 6px; }
+.data-row:last-child { margin-bottom: 0; }
+.data-row .val { font-family: 'JetBrains Mono', monospace; font-weight: 800; color: var(--theme-color); }
+
+/* Módulos separados en el expediente completo */
+.mod-section { margin-top: 24px; border: 1px solid var(--border); border-radius: 12px; padding: 20px; background: var(--bg-body); }
+.mod-title { font-size: 0.8rem; font-weight: 900; color: var(--theme-color); margin-bottom: 16px; border-bottom: 2px solid var(--theme-light); padding-bottom: 8px; text-transform: uppercase; }
+.exp-row { display: flex; justify-content: space-between; font-size: 0.8rem; padding: 8px 0; border-bottom: 1px dashed var(--border); }
+.exp-row span { color: var(--text-muted); font-weight: 600; }
+.exp-row b { font-family: 'JetBrains Mono', monospace; color: var(--text-main); font-weight: 800;}
+.mod-subtotal { text-align: right; margin-top: 16px; font-weight: 900; font-size: 1rem; color: var(--text-main); }
+
+/* Grid de Pantallas Modal */
+.pantallas-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; }
+.pantalla-card { background: var(--bg-body); border: 1px solid var(--border); border-left: 4px solid var(--border); padding: 16px 20px; border-radius: 8px; cursor: pointer; transition: all 0.2s; display: flex; flex-direction: column; }
+.p-id { font-size: 0.75rem; color: var(--text-muted); font-family: monospace; }
+.p-name { font-weight: 800; color: var(--text-main); margin-top: 4px; }
+.pantalla-card:hover { border-left-color: var(--theme-color); border-top-color: var(--theme-color); border-right-color: var(--theme-color); border-bottom-color: var(--theme-color); background: var(--theme-light); transform: translateY(-2px); box-shadow: var(--shadow-sm); }
+
+/* =========================================
+   7. MULTIMEDIA Y TICKETS
+   ========================================= */
+/* Mapas y Fotos */
+.media-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px; }
+.media-box { background: var(--bg-body); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; height: 200px; position: relative; box-shadow: var(--shadow-sm); }
+.media-box iframe, .media-box img { width: 100%; height: 100%; object-fit: cover; border: none; }
+.map-placeholder { background: #e2e8f0; height: 100%; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 0.8rem; font-weight: 700; color: var(--text-muted); font-family: monospace;}
+
+/* Sistema de Tickets */
+.ticket-list { margin-top: 20px; display: flex; flex-direction: column; gap: 10px; }
+.ticket-list-title { font-size: 0.75rem; font-weight: 800; color: var(--text-main); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 1px;}
+.ticket-card { background: var(--bg-surface); border: 1px solid var(--border); border-radius: 8px; padding: 16px; cursor: pointer; transition: 0.2s; }
+.ticket-card:hover { border-color: var(--theme-color); box-shadow: var(--shadow-sm); transform: translateY(-2px); }
+.ticket-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.ticket-id { font-family: 'JetBrains Mono', monospace; font-weight: 800; font-size: 0.8rem; color: var(--theme-color); }
+.ticket-status { font-size: 0.65rem; padding: 4px 10px; border-radius: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; }
+.status-abierto { background: #fee2e2; color: #ef4444; border: 1px solid #fca5a5; }
+.status-cerrado { background: #dcfce7; color: #16a34a; border: 1px solid #86efac; }
+.ticket-desc { font-size: 0.85rem; font-weight: 700; color: var(--text-main); }
+.ticket-full-info { display: none; margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--border); font-size: 0.8rem; color: var(--text-main); }
+.ticket-full-info.active { display: block; animation: fadeInRight 0.3s ease; }
+.tf-row { display: flex; justify-content: space-between; margin-bottom: 8px; }
+.tf-row .nf-label { color: var(--text-muted); font-weight: 600; }
+.tf-row .nf-val { font-family: 'JetBrains Mono', monospace; font-weight: 700; color: var(--text-main); }
+
+/* =========================================
+   8. ANIMACIONES
+   ========================================= */
+@keyframes fadeInRight { 
+    from { opacity: 0; transform: translateX(-20px); } 
+    to { opacity: 1; transform: translateX(0); } 
+}
+
+/* Transición Blanca Minimalista */
+.white-transition { 
+    position: fixed; top: 100%; left: 0; width: 100%; height: 120%; 
+    background: #ffffff; z-index: 9999; pointer-events: none; 
+}
+.white-transition.trigger { 
+    animation: wipeUpMinimal 1s cubic-bezier(0.85, 0, 0.15, 1) forwards; 
+}
+@keyframes wipeUpMinimal { 
+    0% { top: 100%; } 
+    40% { top: -10%; } 
+    60% { top: -10%; } 
+    100% { top: -120%; } 
+}

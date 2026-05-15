@@ -1,0 +1,5549 @@
+[
+  {
+    "id": "MX_CM_EV_MGP_08_2740",
+    "unidad": "ECOVALLAS",
+    "nombre": "Tecamachalco 5",
+    "lat": 19.4326,
+    "lng": -99.2132,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 40500,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 53.03,
+      "pauta": 129.62,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-16-001",
+        "tipo": "Actualización en broadcasting",
+        "fecha": "2026-04-16",
+        "estado": "Cerrado",
+        "costo": 53.03,
+        "descripcion": "Actualización en broadcasting. 1 agente de soporte remoto digital por 0.5 horas."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 129.62,
+        "descripcion": "Programación de pauta digital - 1 pauta."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_3579",
+    "unidad": "ECOVALLAS",
+    "nombre": "Campos Elíseos 290",
+    "lat": 19.425,
+    "lng": -99.198,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 51000,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 628.01,
+      "pauta": 2073.87,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-07-001",
+        "tipo": "Pantallas en negro",
+        "fecha": "2026-04-07",
+        "estado": "Cerrado",
+        "costo": 628.01,
+        "descripcion": "Pantallas en negro. 3 técnicos (1 hora), 1 agente soporte (1 hora), 8L gasolina, 1 vehículo transporte."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 2073.87,
+        "descripcion": "Programación de pauta digital - 16 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_04_3233",
+    "unidad": "ECOVALLAS",
+    "nombre": "Constituyentes 107",
+    "lat": 19.415,
+    "lng": -99.205,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 57840,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 349.64,
+      "pauta": 1555.4,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-15-001",
+        "tipo": "Adicional con publicidad",
+        "fecha": "2026-04-15",
+        "estado": "Cerrado",
+        "costo": 349.64,
+        "descripcion": "Adicional con publicidad. 1 técnico (1 hora), 1 agente soporte (0.5 horas), 2L gasolina, 1 vehículo. Insumos: Trapo industrial, thinner."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1555.4,
+        "descripcion": "Programación de pauta digital - 12 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_2958",
+    "unidad": "ECOVALLAS",
+    "nombre": "Reforma 350",
+    "lat": 19.428,
+    "lng": -99.175,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 48800,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 1425.78,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1425.78,
+        "descripcion": "Programación de pauta digital - 11 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_2094",
+    "unidad": "ECOVALLAS",
+    "nombre": "Andres Bello (Hotel Presidente Campos Eliseos) 218 1/4",
+    "lat": 19.422,
+    "lng": -99.195,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 65000,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 678.01,
+      "pauta": 1166.55,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-22-001",
+        "tipo": "Módulos con fallas",
+        "fecha": "2026-04-22",
+        "estado": "Cerrado",
+        "costo": 678.01,
+        "descripcion": "Módulos con fallas. 3 técnicos (1 hora), 1 agente soporte (1 hora), 8L gasolina, 1 vehículo. Refacción: 1 cable de red ($50)."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1166.55,
+        "descripcion": "Programación de pauta digital - 9 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_02_2094",
+    "unidad": "ECOVALLAS",
+    "nombre": "Andres Bello (Hotel Presidente Campos Eliseos) 218 2/4",
+    "lat": 19.422,
+    "lng": -99.1955,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 65000,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 0,
+      "vandalismo": 0
+    },
+    "tickets": []
+  },
+  {
+    "id": "MX_CM_EV_EVD_03_2094",
+    "unidad": "ECOVALLAS",
+    "nombre": "Andres Bello (Hotel Presidente Campos Eliseos) 218 3/4",
+    "lat": 19.422,
+    "lng": -99.196,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 65000,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 518.47,
+      "pauta": 0,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 518.47,
+        "descripcion": "Programación de pauta digital - 4 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_EVD_04_2094",
+    "unidad": "ECOVALLAS",
+    "nombre": "Andres Bello (Hotel Presidente Campos Eliseos) 218 4/4",
+    "lat": 19.422,
+    "lng": -99.1965,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 0,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 0,
+      "vandalismo": 0
+    },
+    "tickets": []
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_3434",
+    "unidad": "ECOVALLAS",
+    "nombre": "Arquímedes 18",
+    "lat": 19.431,
+    "lng": -99.191,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 43000,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 628.01,
+      "pauta": 388.85,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-29-001",
+        "tipo": "Fuera de línea (NUC)",
+        "fecha": "2026-04-29",
+        "estado": "Cerrado",
+        "costo": 628.01,
+        "descripcion": "Fuera de línea por falla en NUC. 3 técnicos (1 hora), 1 agente soporte (1 hora), 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 388.85,
+        "descripcion": "Programación de pauta digital - 3 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_3591",
+    "unidad": "ECOVALLAS",
+    "nombre": "Calle Arquímedes 173",
+    "lat": 19.431,
+    "lng": -99.192,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 42339,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 2140.09,
+      "pauta": 2073.87,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-04-001",
+        "tipo": "Módulos con fallas",
+        "fecha": "2026-04-04",
+        "estado": "Cerrado",
+        "costo": 678.01,
+        "descripcion": "Módulos con fallas. 3 técnicos (1 hora), 1 agente soporte (1 hora), 8L gasolina, 1 vehículo. Refacción: 1 cable de red ($50)."
+      },
+      {
+        "id": "TK-2026-04-18-001",
+        "tipo": "Módulos con fallas",
+        "fecha": "2026-04-18",
+        "estado": "Cerrado",
+        "costo": 678.01,
+        "descripcion": "Módulos con fallas. 3 técnicos (1 hora), 1 agente soporte (1 hora), 8L gasolina, 1 vehículo. Refacción: 1 cable de red ($50)."
+      },
+      {
+        "id": "TK-2026-04-22-001",
+        "tipo": "Tarjetas Alarmadas",
+        "fecha": "2026-04-22",
+        "estado": "Cerrado",
+        "costo": 678.01,
+        "descripcion": "Tarjetas alarmadas. 3 técnicos (1 hora), 1 agente soporte (1 hora), 8L gasolina, 1 vehículo. Refacción: 1 cable de red ($50)."
+      },
+      {
+        "id": "TK-2026-04-16-001",
+        "tipo": "Actualización en broadcasting",
+        "fecha": "2026-04-16",
+        "estado": "Cerrado",
+        "costo": 53.03,
+        "descripcion": "Actualización en broadcasting. 1 agente soporte remoto (0.5 horas)."
+      },
+      {
+        "id": "TK-2026-04-16-002",
+        "tipo": "Actualización en broadcasting",
+        "fecha": "2026-04-16",
+        "estado": "Cerrado",
+        "costo": 53.03,
+        "descripcion": "Actualización en broadcasting. 1 agente soporte remoto (0.5 horas)."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 2073.87,
+        "descripcion": "Programación de pauta digital - 16 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_05_3548",
+    "unidad": "ECOVALLAS",
+    "nombre": "Horacio 1019",
+    "lat": 19.43,
+    "lng": -99.2,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 50300,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 777.7,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 777.7,
+        "descripcion": "Programación de pauta digital - 6 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_3605",
+    "unidad": "ECOVALLAS",
+    "nombre": "Av. Homero 1027",
+    "lat": 19.431,
+    "lng": -99.197,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 61200,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 1468.12,
+      "pauta": 129.62,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-22-001",
+        "tipo": "Pantallas en negro",
+        "fecha": "2026-04-22",
+        "estado": "Cerrado",
+        "costo": 628.01,
+        "descripcion": "Pantallas en negro. 3 técnicos (1 hora), 1 agente soporte (1 hora), 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-23-001",
+        "tipo": "Módulos con fallas",
+        "fecha": "2026-04-23",
+        "estado": "Cerrado",
+        "costo": 840.11,
+        "descripcion": "Módulos con fallas. 3 técnicos (1 hora), 1 agente soporte (3 horas), 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 129.62,
+        "descripcion": "Programación de pauta digital - 1 pauta."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_07_2920",
+    "unidad": "ECOVALLAS",
+    "nombre": "Av. Río San Joaquín 434",
+    "lat": 19.44,
+    "lng": -99.21,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 44000,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 455.69,
+      "pauta": 1685.02,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-29-001",
+        "tipo": "Adicional con grafiti",
+        "fecha": "2026-04-29",
+        "estado": "Cerrado",
+        "costo": 455.69,
+        "descripcion": "Limpieza de grafiti. 1 técnico (1 hora), 1 agente soporte (1.5 horas), 2L gasolina, 1 vehículo. Insumos: Trapo industrial, thinner."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1685.02,
+        "descripcion": "Programación de pauta digital - 13 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_07_3492",
+    "unidad": "ECOVALLAS",
+    "nombre": "Viaducto 18 de julio 85 patriotismo",
+    "lat": 19.41,
+    "lng": -99.18,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 39000,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 1944.25,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1944.25,
+        "descripcion": "Programación de pauta digital - 15 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_3147",
+    "unidad": "ECOVALLAS",
+    "nombre": "Once De Abril 174",
+    "lat": 19.42,
+    "lng": -99.17,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 77617.21,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 1680.22,
+      "pauta": 907.32,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-23-001",
+        "tipo": "Fuera de línea (internet)",
+        "fecha": "2026-04-23",
+        "estado": "Cerrado",
+        "costo": 734.06,
+        "descripcion": "Fuera de línea por falla de internet. 3 técnicos (1 hora), 1 agente soporte (2 horas), 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-26-001",
+        "tipo": "Fuera de línea (internet)",
+        "fecha": "2026-04-26",
+        "estado": "Cerrado",
+        "costo": 946.16,
+        "descripcion": "Fuera de línea por falla de internet. 3 técnicos (2 horas), 1 agente soporte (2 horas), 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 907.32,
+        "descripcion": "Programación de pauta digital - 7 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_04_2219",
+    "unidad": "ECOVALLAS",
+    "nombre": "Paseo De La Reforma 2603",
+    "lat": 19.435,
+    "lng": -99.215,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 66400,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 1944.25,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1944.25,
+        "descripcion": "Programación de pauta digital - 15 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_12_3604",
+    "unidad": "ECOVALLAS",
+    "nombre": "Paseo De Los Ahuehuetes 1221/bosques de la reforma",
+    "lat": 19.36,
+    "lng": -99.26,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 73700,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 1296.17,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1296.17,
+        "descripcion": "Programación de pauta digital - 10 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_04_3074",
+    "unidad": "ECOVALLAS",
+    "nombre": "Paseo De Las Palmas 1150",
+    "lat": 19.425,
+    "lng": -99.21,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 82218.05,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 1814.63,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1814.63,
+        "descripcion": "Programación de pauta digital - 14 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_02_3236",
+    "unidad": "ECOVALLAS",
+    "nombre": "Miguel De Cervantes Saavedra 565",
+    "lat": 19.433,
+    "lng": -99.198,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 56000,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 53.03,
+      "pauta": 1814.63,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-22-001",
+        "tipo": "Actualización en broadcasting",
+        "fecha": "2026-04-22",
+        "estado": "Cerrado",
+        "costo": 53.03,
+        "descripcion": "Actualización en broadcasting. 1 agente soporte remoto (0.5 horas)."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1814.63,
+        "descripcion": "Programación de pauta digital - 14 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_03_2738",
+    "unidad": "ECOVALLAS",
+    "nombre": "Av. Cuauhtémoc Eje 1 Poniente 267",
+    "lat": 19.415,
+    "lng": -99.16,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 78500,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 841.9,
+      "pauta": 1944.25,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-09-001",
+        "tipo": "Módulos con fallas",
+        "fecha": "2026-04-09",
+        "estado": "Cerrado",
+        "costo": 841.9,
+        "descripcion": "Módulos con fallas. 3 técnicos (1 hora), 1 agente soporte (1 hora), 12L gasolina, 1 vehículo (2 horas transporte)."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1944.25,
+        "descripcion": "Programación de pauta digital - 15 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_3261",
+    "unidad": "ECOVALLAS",
+    "nombre": "Insurgentes 363",
+    "lat": 19.42,
+    "lng": -99.165,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 45200,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 628.01,
+      "pauta": 907.32,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-28-001",
+        "tipo": "Fuera de línea (NUC)",
+        "fecha": "2026-04-28",
+        "estado": "Cerrado",
+        "costo": 628.01,
+        "descripcion": "Fuera de línea por falla en NUC. 3 técnicos (1 hora), 1 agente soporte (1 hora), 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 907.32,
+        "descripcion": "Programación de pauta digital - 7 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_3596",
+    "unidad": "ECOVALLAS",
+    "nombre": "Av. Insurgentes Sur 324",
+    "lat": 19.415,
+    "lng": -99.165,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 67800,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 1540.75,
+      "pauta": 1166.55,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-001",
+        "tipo": "Adicional con grafiti",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 402.67,
+        "descripcion": "Limpieza de grafiti. 1 técnico (1 hora), 1 agente soporte (1 hora), 2L gasolina, 1 vehículo. Insumos: Trapo industrial, thinner."
+      },
+      {
+        "id": "TK-2026-04-23-001",
+        "tipo": "Fuera de línea (internet)",
+        "fecha": "2026-04-23",
+        "estado": "Cerrado",
+        "costo": 1138.08,
+        "descripcion": "Fuera de línea por falla de internet. 3 técnicos (2 horas), 1 agente soporte (2 horas), 8L gasolina (2 días), 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1166.55,
+        "descripcion": "Programación de pauta digital - 9 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_15_3378",
+    "unidad": "ECOVALLAS",
+    "nombre": "Av. Insurgentes Sur 171",
+    "lat": 19.41,
+    "lng": -99.16,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 55150,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 734.06,
+      "pauta": 1944.25,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-19-001",
+        "tipo": "Fuera de línea (NUC)",
+        "fecha": "2026-04-19",
+        "estado": "Cerrado",
+        "costo": 734.06,
+        "descripcion": "Fuera de línea por falla en NUC. 3 técnicos (1 hora), 1 agente soporte (2 horas), 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1944.25,
+        "descripcion": "Programación de pauta digital - 15 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_3323",
+    "unidad": "ECOVALLAS",
+    "nombre": "Amsterdam 107",
+    "lat": 19.4125,
+    "lng": -99.1712,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 72850,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 1627.19,
+      "pauta": 1814.63,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-24-001",
+        "tipo": "Fuera de línea (internet)",
+        "fecha": "2026-04-24",
+        "estado": "Abierto",
+        "costo": 946.16,
+        "descripcion": "Falla de conexión reportada por soporte remoto. Desplazamiento de 3 técnicos, 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-27-001",
+        "tipo": "Fuera de línea (internet)",
+        "fecha": "2026-04-27",
+        "estado": "Cerrado",
+        "costo": 681.03,
+        "descripcion": "Falla de conexión. 3 técnicos (1 hora), 1 agente soporte (1.5 horas), 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1814.63,
+        "descripcion": "Programación de pauta digital - 14 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_EVD_01_3133",
+    "unidad": "ECOVALLAS",
+    "nombre": "Av. Nuevo León 272",
+    "lat": 19.41,
+    "lng": -99.17,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 46350,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 1814.63,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1814.63,
+        "descripcion": "Programación de pauta digital - 14 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_11_2993",
+    "unidad": "ECOVALLAS",
+    "nombre": "Eje 2 Pte Monterrey 75 y Oro",
+    "lat": 19.42,
+    "lng": -99.16,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 65000,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 518.47,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 518.47,
+        "descripcion": "Programación de pauta digital - 4 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_3490",
+    "unidad": "ECOVALLAS",
+    "nombre": "Paseo De La Reforma 458",
+    "lat": 19.425,
+    "lng": -99.18,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 48500,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 129.62,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 129.62,
+        "descripcion": "Programación de pauta digital - 1 pauta."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_03_3225",
+    "unidad": "ECOVALLAS",
+    "nombre": "San Jeronimo",
+    "lat": 19.35,
+    "lng": -99.22,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 57600,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 1555.4,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1555.4,
+        "descripcion": "Programación de pauta digital - 12 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_06_3225",
+    "unidad": "ECOVALLAS",
+    "nombre": "Río Magdalena",
+    "lat": 19.35,
+    "lng": -99.225,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 63100,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 723.97,
+      "pauta": 907.32,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-28-001",
+        "tipo": "Fuera de línea (NUC)",
+        "fecha": "2026-04-28",
+        "estado": "Cerrado",
+        "costo": 723.97,
+        "descripcion": "Fuera de línea por falla en NUC. 3 técnicos (1 hora), 1 agente soporte (1 hora), 12L gasolina, 1 vehículo (1 hora transporte)."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 907.32,
+        "descripcion": "Programación de pauta digital - 7 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_3519",
+    "unidad": "ECOVALLAS",
+    "nombre": "Av. Revolución 811",
+    "lat": 19.39,
+    "lng": -99.19,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 44600,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 1036.93,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1036.93,
+        "descripcion": "Programación de pauta digital - 8 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_05_3530",
+    "unidad": "ECOVALLAS",
+    "nombre": "Revolución 1300",
+    "lat": 19.38,
+    "lng": -99.2,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 50100,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 129.62,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 129.62,
+        "descripcion": "Programación de pauta digital - 1 pauta."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_05_3422",
+    "unidad": "ECOVALLAS",
+    "nombre": "Blvd Adolfo Ruiz Cortinez 3232",
+    "lat": 19.37,
+    "lng": -99.21,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 62500,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 2736.79,
+      "pauta": 1296.17,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-17-001",
+        "tipo": "Fuera de línea (internet)",
+        "fecha": "2026-04-17",
+        "estado": "Cerrado",
+        "costo": 1735.81,
+        "descripcion": "Fuera de línea por falla de internet. 3 técnicos (2 horas), 1 agente soporte (2 horas), 12L gasolina (3 días), 1 vehículo (2 horas transporte)."
+      },
+      {
+        "id": "TK-2026-04-20-001",
+        "tipo": "Fuera de línea (internet)",
+        "fecha": "2026-04-20",
+        "estado": "Cerrado",
+        "costo": 947.95,
+        "descripcion": "Fuera de línea por falla de internet. 3 técnicos (1 hora), 1 agente soporte (2 horas), 12L gasolina, 1 vehículo (2 horas transporte)."
+      },
+      {
+        "id": "TK-2026-04-21-001",
+        "tipo": "Actualización en broadcasting",
+        "fecha": "2026-04-21",
+        "estado": "Cerrado",
+        "costo": 53.03,
+        "descripcion": "Actualización en broadcasting. 1 agente soporte remoto (0.5 horas)."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1296.17,
+        "descripcion": "Programación de pauta digital - 10 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_03_3580",
+    "unidad": "ECOVALLAS",
+    "nombre": "Picacho Ajusco Lt 63 Mz 49",
+    "lat": 19.25,
+    "lng": -99.23,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 56000,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 2368.06,
+      "pauta": 1296.17,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-11-001",
+        "tipo": "Fuera de línea (NUC)",
+        "fecha": "2026-04-11",
+        "estado": "Cerrado",
+        "costo": 1160.05,
+        "descripcion": "Fuera de línea por falla en NUC. 3 técnicos (2 horas), 1 agente soporte (2 horas), 12L gasolina, 1 vehículo (2 horas transporte)."
+      },
+      {
+        "id": "TK-2026-04-21-001",
+        "tipo": "Pantalla con grafiti",
+        "fecha": "2026-04-21",
+        "estado": "Cerrado",
+        "costo": 402.67,
+        "descripcion": "Limpieza de grafiti. 1 técnico (1 hora), 1 agente soporte (1 hora), 2L gasolina, 1 vehículo. Insumos: Trapo industrial, thinner."
+      },
+      {
+        "id": "TK-2026-04-21-002",
+        "tipo": "Pantalla con grafiti",
+        "fecha": "2026-04-21",
+        "estado": "Cerrado",
+        "costo": 402.67,
+        "descripcion": "Limpieza de grafiti. 1 técnico (1 hora), 1 agente soporte (1 hora), 2L gasolina, 1 vehículo. Insumos: Trapo industrial, thinner."
+      },
+      {
+        "id": "TK-2026-04-21-003",
+        "tipo": "Pantalla con grafiti",
+        "fecha": "2026-04-21",
+        "estado": "Cerrado",
+        "costo": 402.67,
+        "descripcion": "Limpieza de grafiti. 1 técnico (1 hora), 1 agente soporte (1 hora), 2L gasolina, 1 vehículo. Insumos: Trapo industrial, thinner."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1296.17,
+        "descripcion": "Programación de pauta digital - 10 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_03_3544",
+    "unidad": "ECOVALLAS",
+    "nombre": "Av. Boulevard Adolfo Ruiz Cortinez 5120",
+    "lat": 19.36,
+    "lng": -99.24,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 155544.4,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 573.63,
+      "pauta": 1425.78,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-29-001",
+        "tipo": "Adicional con Grafiti",
+        "fecha": "2026-04-29",
+        "estado": "Cerrado",
+        "costo": 573.63,
+        "descripcion": "Limpieza de grafiti. 1 técnico (1 hora), 1 agente soporte (1.5 horas), 2L gasolina, 1 vehículo (2 horas transporte). Insumos: Trapo industrial, thinner."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1425.78,
+        "descripcion": "Programación de pauta digital - 11 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_17_3420",
+    "unidad": "ECOVALLAS",
+    "nombre": "Periférico 1181",
+    "lat": 19.33,
+    "lng": -99.19,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 70200,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 349.64,
+      "pauta": 1685.02,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-001",
+        "tipo": "Faldon con grafiti",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 349.64,
+        "descripcion": "Limpieza de grafiti en faldón. 1 técnico (1 hora), 1 agente soporte (0.5 horas), 2L gasolina, 1 vehículo. Insumos: Trapo industrial, thinner."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1685.02,
+        "descripcion": "Programación de pauta digital - 13 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_11_2397",
+    "unidad": "ECOVALLAS",
+    "nombre": "Javier Barros Sierra 495",
+    "lat": 19.36,
+    "lng": -99.25,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 65900,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 4494.93,
+      "pauta": 1166.55,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-001",
+        "tipo": "Módulos con fallas",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 4494.93,
+        "descripcion": "Módulos con fallas. 3 técnicos (1 hora), 1 agente soporte (1.5 horas), 12L gasolina, 1 vehículo (2 horas transporte). Refacción: 1 módulo ($3,600)."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1166.55,
+        "descripcion": "Programación de pauta digital - 9 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_2466",
+    "unidad": "ECOVALLAS",
+    "nombre": "Calzada De Las Águilas 2341",
+    "lat": 19.34,
+    "lng": -99.23,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 58400,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 841.9,
+      "pauta": 518.47,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-06-001",
+        "tipo": "Pantallas en negro",
+        "fecha": "2026-04-06",
+        "estado": "Cerrado",
+        "costo": 841.9,
+        "descripcion": "Pantallas en negro. 3 técnicos (1 hora), 1 agente soporte (1 hora), 12L gasolina, 1 vehículo (2 horas transporte)."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 518.47,
+        "descripcion": "Programación de pauta digital - 4 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_2880",
+    "unidad": "ECOVALLAS",
+    "nombre": "Blvd. Adolfo López Mateos 248",
+    "lat": 19.38,
+    "lng": -99.22,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 46600,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 858.37,
+      "pauta": 1166.55,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-21-001",
+        "tipo": "Actualización en broadcasting",
+        "fecha": "2026-04-21",
+        "estado": "Cerrado",
+        "costo": 53.03,
+        "descripcion": "Actualización en broadcasting. 1 agente soporte remoto (0.5 horas)."
+      },
+      {
+        "id": "TK-2026-04-23-001",
+        "tipo": "Adicional con grafiti",
+        "fecha": "2026-04-23",
+        "estado": "Cerrado",
+        "costo": 402.67,
+        "descripcion": "Limpieza de grafiti. 1 técnico (1 hora), 1 agente soporte (1 hora), 2L gasolina, 1 vehículo. Insumos: Trapo industrial, thinner."
+      },
+      {
+        "id": "TK-2026-04-23-002",
+        "tipo": "Adicional con grafiti",
+        "fecha": "2026-04-23",
+        "estado": "Cerrado",
+        "costo": 402.67,
+        "descripcion": "Limpieza de grafiti. 1 técnico (1 hora), 1 agente soporte (1 hora), 2L gasolina, 1 vehículo. Insumos: Trapo industrial, thinner."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1166.55,
+        "descripcion": "Programación de pauta digital - 9 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_17_3576",
+    "unidad": "ECOVALLAS",
+    "nombre": "Calzada De Tlalpan 855",
+    "lat": 19.36,
+    "lng": -99.15,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 60400,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 1468.55,
+      "pauta": 648.08,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-23-001",
+        "tipo": "Adicional con grafiti",
+        "fecha": "2026-04-23",
+        "estado": "Cerrado",
+        "costo": 520.6,
+        "descripcion": "Limpieza de grafiti. 1 técnico (1 hora), 1 agente soporte (1 hora), 2L gasolina, 1 vehículo (2 horas transporte). Insumos: Trapo industrial, thinner."
+      },
+      {
+        "id": "TK-2026-04-26-001",
+        "tipo": "Fuera de línea (NUC)",
+        "fecha": "2026-04-26",
+        "estado": "Cerrado",
+        "costo": 947.95,
+        "descripcion": "Fuera de línea por falla en NUC. 3 técnicos (1 hora), 1 agente soporte (2 horas), 12L gasolina, 1 vehículo (2 horas transporte)."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 648.08,
+        "descripcion": "Programación de pauta digital - 5 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_03_2994",
+    "unidad": "ECOVALLAS",
+    "nombre": "Avenida Insurgentes Sur 1761",
+    "lat": 19.35,
+    "lng": -99.19,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 77025.85,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 94269.03,
+      "pauta": 1296.17,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-05-001",
+        "tipo": "Módulos con fallas",
+        "fecha": "2026-04-05",
+        "estado": "Cerrado",
+        "costo": 91266.1,
+        "descripcion": "Módulos con fallas. 3 técnicos (3 horas), 1 agente soporte (1 hora), 12L gasolina, 1 vehículo (2 horas transporte). Refacción: 25 módulos ($90,000)."
+      },
+      {
+        "id": "TK-2026-04-15-001",
+        "tipo": "Fuera de línea (internet)",
+        "fecha": "2026-04-15",
+        "estado": "Cerrado",
+        "costo": 1160.05,
+        "descripcion": "Fuera de línea por falla de internet. 3 técnicos (2 horas), 1 agente soporte (2 horas), 12L gasolina, 1 vehículo (2 horas transporte)."
+      },
+      {
+        "id": "TK-2026-04-19-001",
+        "tipo": "Fuera de línea (internet)",
+        "fecha": "2026-04-19",
+        "estado": "Cerrado",
+        "costo": 947.95,
+        "descripcion": "Fuera de línea por falla de internet. 3 técnicos (1 hora), 1 agente soporte (2 horas), 12L gasolina, 1 vehículo (2 horas transporte)."
+      },
+      {
+        "id": "TK-2026-04-20-001",
+        "tipo": "Fuera de línea (internet)",
+        "fecha": "2026-04-20",
+        "estado": "Cerrado",
+        "costo": 894.93,
+        "descripcion": "Fuera de línea por falla de internet. 3 técnicos (1 hora), 1 agente soporte (1.5 horas), 12L gasolina, 1 vehículo (2 horas transporte)."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1296.17,
+        "descripcion": "Programación de pauta digital - 10 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_06_3429",
+    "unidad": "ECOVALLAS",
+    "nombre": "Eje 8 Sur 724",
+    "lat": 19.35,
+    "lng": -99.18,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 63600,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 53.03,
+      "pauta": 1685.02,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-15-001",
+        "tipo": "Actualización en broadcasting",
+        "fecha": "2026-04-15",
+        "estado": "Cerrado",
+        "costo": 53.03,
+        "descripcion": "Actualización en broadcasting. 1 agente soporte remoto (0.5 horas)."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1685.02,
+        "descripcion": "Programación de pauta digital - 13 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_11_3373",
+    "unidad": "ECOVALLAS",
+    "nombre": "Av. Paseo De La Reforma 398 y 400",
+    "lat": 19.424,
+    "lng": -99.176,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 64350,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 2073.87,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 2073.87,
+        "descripcion": "Programación de pauta digital - 16 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_21_3346",
+    "unidad": "ECOVALLAS",
+    "nombre": "Paseo De La Reforma 432 1/3",
+    "lat": 19.423,
+    "lng": -99.177,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 64000,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 1329.05,
+      "pauta": 648.08,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-07-001",
+        "tipo": "Actualización en broadcasting",
+        "fecha": "2026-04-07",
+        "estado": "Cerrado",
+        "costo": 53.03,
+        "descripcion": "Actualización en broadcasting. 1 agente soporte remoto (0.5 horas)."
+      },
+      {
+        "id": "TK-2026-04-09-001",
+        "tipo": "Apagado parcial",
+        "fecha": "2026-04-09",
+        "estado": "Cerrado",
+        "costo": 628.01,
+        "descripcion": "Apagado parcial. 3 técnicos (1 hora), 1 agente soporte (1 hora), 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-24-001",
+        "tipo": "Tarjetas Alarmadas",
+        "fecha": "2026-04-24",
+        "estado": "Cerrado",
+        "costo": 628.01,
+        "descripcion": "Tarjetas alarmadas. 3 técnicos (1 hora), 1 agente soporte (1 hora), 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 648.08,
+        "descripcion": "Programación de pauta digital - 5 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_22_3346",
+    "unidad": "ECOVALLAS",
+    "nombre": "Paseo De La Reforma 432 2/3",
+    "lat": 19.423,
+    "lng": -99.1775,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 64000,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 2639.99,
+      "pauta": 129.62,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-15-001",
+        "tipo": "Apagado total",
+        "fecha": "2026-04-15",
+        "estado": "Cerrado",
+        "costo": 628.01,
+        "descripcion": "Apagado total. 3 técnicos (1 hora), 1 agente soporte (1 hora), 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-16-001",
+        "tipo": "Fuera de línea (internet)",
+        "fecha": "2026-04-16",
+        "estado": "Cerrado",
+        "costo": 1330.0,
+        "descripcion": "Fuera de línea por falla de internet. 3 técnicos (2 horas), 1 agente soporte (2 horas), 8L gasolina (3 días), 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-24-001",
+        "tipo": "Actualización en broadcasting",
+        "fecha": "2026-04-24",
+        "estado": "Cerrado",
+        "costo": 53.03,
+        "descripcion": "Actualización en broadcasting. 1 agente soporte remoto (0.5 horas)."
+      },
+      {
+        "id": "TK-2026-04-24-002",
+        "tipo": "Tarjetas Alarmadas",
+        "fecha": "2026-04-24",
+        "estado": "Cerrado",
+        "costo": 628.01,
+        "descripcion": "Tarjetas alarmadas. 3 técnicos (1 hora), 1 agente soporte (1 hora), 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 129.62,
+        "descripcion": "Programación de pauta digital - 1 pauta."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_23_3346",
+    "unidad": "ECOVALLAS",
+    "nombre": "Paseo De La Reforma 432 3/3",
+    "lat": 19.423,
+    "lng": -99.178,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 64000,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 2361.26,
+      "pauta": 0,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-07-001",
+        "tipo": "Camara fuera de linea",
+        "fecha": "2026-04-07",
+        "estado": "Cerrado",
+        "costo": 521.96,
+        "descripcion": "Cámara fuera de línea. 3 técnicos (1 hora), 1 agente soporte (1 hora, sin costo), 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-15-001",
+        "tipo": "Apagado total",
+        "fecha": "2026-04-15",
+        "estado": "Cerrado",
+        "costo": 1158.26,
+        "descripcion": "Apagado total. 3 técnicos (3.5 horas), 1 agente soporte (1 hora), 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-24-001",
+        "tipo": "Pantallas en negro",
+        "fecha": "2026-04-24",
+        "estado": "Cerrado",
+        "costo": 628.01,
+        "descripcion": "Pantallas en negro. 3 técnicos (1 hora), 1 agente soporte (1 hora), 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-27-001",
+        "tipo": "Actualización en broadcasting",
+        "fecha": "2026-04-27",
+        "estado": "Cerrado",
+        "costo": 53.03,
+        "descripcion": "Actualización en broadcasting. 1 agente soporte remoto (0.5 horas)."
+      }
+    ]
+  },
+  {
+    "id": "MX_EM_EV_MGP_09_0008",
+    "unidad": "ECOVALLAS",
+    "nombre": "Av. Lomas Verdes 506",
+    "lat": 19.49,
+    "lng": -99.24,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 64000,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 1166.55,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1166.55,
+        "descripcion": "Programación de pauta digital - 9 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_EVD_01_3417",
+    "unidad": "ECOVALLAS",
+    "nombre": "Paseo De La Reforma 130",
+    "lat": 19.433,
+    "lng": -99.152,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 0,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 0,
+      "vandalismo": 0
+    },
+    "tickets": []
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_3139",
+    "unidad": "ECOVALLAS",
+    "nombre": "Av. Paseo De La Reforma 202",
+    "lat": 19.427,
+    "lng": -99.173,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 50500,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 129.62,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 129.62,
+        "descripcion": "Programación de pauta digital - 1 pauta."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_04_3139",
+    "unidad": "ECOVALLAS",
+    "nombre": "Av. Paseo De La Reforma 202",
+    "lat": 19.427,
+    "lng": -99.173,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 50500,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 0,
+      "vandalismo": 0
+    },
+    "tickets": []
+  },
+  {
+    "id": "MX_CM_EV_MGP_02_3139",
+    "unidad": "ECOVALLAS",
+    "nombre": "Av. Paseo De La Reforma 202",
+    "lat": 19.427,
+    "lng": -99.173,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 50500,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 0,
+      "vandalismo": 0
+    },
+    "tickets": []
+  },
+  {
+    "id": "MX_CM_EV_MGP_03_3139",
+    "unidad": "ECOVALLAS",
+    "nombre": "Av. Paseo De La Reforma 202",
+    "lat": 19.427,
+    "lng": -99.173,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 50500,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 0,
+      "vandalismo": 0
+    },
+    "tickets": []
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_3510",
+    "unidad": "ECOVALLAS",
+    "nombre": "Av. Paseo De La Reforma 146",
+    "lat": 19.43,
+    "lng": -99.165,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 100857.28,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 946.16,
+      "pauta": 2333.1,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-09-001",
+        "tipo": "Fuera de línea (internet)",
+        "fecha": "2026-04-09",
+        "estado": "Cerrado",
+        "costo": 946.16,
+        "descripcion": "Fuera de línea por falla de internet. 3 técnicos (2 horas), 1 agente soporte (2 horas), 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 2333.1,
+        "descripcion": "Programación de pauta digital - 18 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_10_3347",
+    "unidad": "ECOVALLAS",
+    "nombre": "Eje 2 Pte. Río Tiber 113 y 119",
+    "lat": 19.427,
+    "lng": -99.17,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 39600,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 2333.1,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 2333.1,
+        "descripcion": "Programación de pauta digital - 18 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_2941",
+    "unidad": "ECOVALLAS",
+    "nombre": "Insurgentes Centro 121",
+    "lat": 19.414,
+    "lng": -99.158,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 49800,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 402.67,
+      "pauta": 1555.4,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-27-001",
+        "tipo": "Adicional con grafiti",
+        "fecha": "2026-04-27",
+        "estado": "Cerrado",
+        "costo": 402.67,
+        "descripcion": "Limpieza de grafiti. 1 técnico (1 hora), 1 agente soporte (1 hora), 2L gasolina, 1 vehículo. Insumos: Trapo industrial, thinner."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1555.4,
+        "descripcion": "Programación de pauta digital - 12 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_09_3458",
+    "unidad": "ECOVALLAS",
+    "nombre": "Paseo De La Reforma 185",
+    "lat": 19.428,
+    "lng": -99.168,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 0,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 0,
+      "vandalismo": 0
+    },
+    "tickets": []
+  },
+  {
+    "id": "MX_CM_EV_MGP_02_3200",
+    "unidad": "ECOVALLAS",
+    "nombre": "Hamburgo 49",
+    "lat": 19.426,
+    "lng": -99.165,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 77025.85,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 1166.55,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1166.55,
+        "descripcion": "Programación de pauta digital - 9 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_3379",
+    "unidad": "ECOVALLAS",
+    "nombre": "Benjamín Franklin 246",
+    "lat": 19.408,
+    "lng": -99.178,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 95800,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 819.93,
+      "pauta": 1944.25,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-30-001",
+        "tipo": "Fuera de línea (NUC)",
+        "fecha": "2026-04-30",
+        "estado": "Cerrado",
+        "costo": 819.93,
+        "descripcion": "Fuera de línea por falla en NUC. 3 técnicos (1 hora), 1 agente soporte (1 hora), 8L gasolina (2 días), 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1944.25,
+        "descripcion": "Programación de pauta digital - 15 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_03_3615",
+    "unidad": "ECOVALLAS",
+    "nombre": "Av. Constituyentes 555",
+    "lat": 19.409,
+    "lng": -99.204,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 51565.76,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 1036.93,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1036.93,
+        "descripcion": "Programación de pauta digital - 8 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_11_3419",
+    "unidad": "ECOVALLAS",
+    "nombre": "Avenida Constituyentes 890",
+    "lat": 19.403,
+    "lng": -99.211,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 77500,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 1296.17,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1296.17,
+        "descripcion": "Programación de pauta digital - 10 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_3621",
+    "unidad": "ECOVALLAS",
+    "nombre": "Av. Estadio Azteca 3465",
+    "lat": 19.3,
+    "lng": -99.15,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 0,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 0,
+      "vandalismo": 0
+    },
+    "tickets": []
+  },
+  {
+    "id": "MX_CM_EV_MGP_03_2339",
+    "unidad": "ECOVALLAS",
+    "nombre": "Av. Circuito Estadio Azteca S/N",
+    "lat": 19.3,
+    "lng": -99.152,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 115800,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 5495.9,
+      "pauta": 129.62,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-03-001",
+        "tipo": "Módulos con fallas",
+        "fecha": "2026-04-03",
+        "estado": "Cerrado",
+        "costo": 4441.9,
+        "descripcion": "Módulos con fallas. 3 técnicos (1 hora), 1 agente soporte (1 hora), 12L gasolina, 1 vehículo (2 horas transporte). Refacción: 1 módulo ($3,600)."
+      },
+      {
+        "id": "TK-2026-04-23-001",
+        "tipo": "Fuera de línea (NUC)",
+        "fecha": "2026-04-23",
+        "estado": "Cerrado",
+        "costo": 1054.0,
+        "descripcion": "Fuera de línea por falla en NUC. 3 técnicos (1 hora), 1 agente soporte (3 horas), 12L gasolina, 1 vehículo (2 horas transporte)."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 129.62,
+        "descripcion": "Programación de pauta digital - 1 pauta."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_16_3606",
+    "unidad": "ECOVALLAS",
+    "nombre": "Periferico 5157",
+    "lat": 19.28,
+    "lng": -99.14,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 80100,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 1555.4,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1555.4,
+        "descripcion": "Programación de pauta digital - 12 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_11_3425",
+    "unidad": "ECOVALLAS",
+    "nombre": "Calzada del Hueso 256",
+    "lat": 19.3,
+    "lng": -99.12,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 65400,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 520.6,
+      "pauta": 1036.93,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-001",
+        "tipo": "Adicional con grafiti",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 520.6,
+        "descripcion": "Limpieza de grafiti. 1 técnico (1 hora), 1 agente soporte (1 hora), 2L gasolina, 1 vehículo (2 horas transporte). Insumos: Trapo industrial, thinner."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1036.93,
+        "descripcion": "Programación de pauta digital - 8 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_3559",
+    "unidad": "ECOVALLAS",
+    "nombre": "Periférico Sur 4290",
+    "lat": 19.33,
+    "lng": -99.18,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 74850,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 1296.17,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1296.17,
+        "descripcion": "Programación de pauta digital - 10 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_02_3394",
+    "unidad": "ECOVALLAS",
+    "nombre": "Jacarandas 90",
+    "lat": 19.4,
+    "lng": -99.19,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 66800,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 745.94,
+      "pauta": 1036.93,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-09-001",
+        "tipo": "Tarjetas Alarmadas",
+        "fecha": "2026-04-09",
+        "estado": "Cerrado",
+        "costo": 745.94,
+        "descripcion": "Tarjetas alarmadas. 3 técnicos (1 hora), 1 agente soporte (1 hora), 8L gasolina, 1 vehículo (2 horas transporte)."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1036.93,
+        "descripcion": "Programación de pauta digital - 8 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_05_3586",
+    "unidad": "ECOVALLAS",
+    "nombre": "Viaducto Esq. Sur 69",
+    "lat": 19.39,
+    "lng": -99.14,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 61000,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 1160.05,
+      "pauta": 648.08,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-08-001",
+        "tipo": "Fuera de línea (NUC)",
+        "fecha": "2026-04-08",
+        "estado": "Cerrado",
+        "costo": 1160.05,
+        "descripcion": "Fuera de línea por falla en NUC. 3 técnicos (2 horas), 1 agente soporte (2 horas), 12L gasolina, 1 vehículo (2 horas transporte)."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 648.08,
+        "descripcion": "Programación de pauta digital - 5 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_17_3535",
+    "unidad": "ECOVALLAS",
+    "nombre": "Río de la Loza 30",
+    "lat": 19.43,
+    "lng": -99.14,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 57360,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 1149.97,
+      "pauta": 1425.78,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-11-001",
+        "tipo": "Tarjetas Alarmadas",
+        "fecha": "2026-04-11",
+        "estado": "Cerrado",
+        "costo": 628.01,
+        "descripcion": "Tarjetas alarmadas. 3 técnicos (1 hora), 1 agente soporte (1 hora), 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-11-002",
+        "tipo": "Camara fuera de linea",
+        "fecha": "2026-04-11",
+        "estado": "Cerrado",
+        "costo": 521.96,
+        "descripcion": "Cámara fuera de línea. 3 técnicos (1 hora), 1 agente soporte (1 hora, sin costo), 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1425.78,
+        "descripcion": "Programación de pauta digital - 11 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_05_3292",
+    "unidad": "ECOVALLAS",
+    "nombre": "Campos Eliseos 164",
+    "lat": 19.425,
+    "lng": -99.2,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 50600,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 53.03,
+      "pauta": 1296.17,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-22-001",
+        "tipo": "Actualización en broadcasting",
+        "fecha": "2026-04-22",
+        "estado": "Cerrado",
+        "costo": 53.03,
+        "descripcion": "Actualización en broadcasting. 1 agente soporte remoto (0.5 horas)."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1296.17,
+        "descripcion": "Programación de pauta digital - 10 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_3612",
+    "unidad": "ECOVALLAS",
+    "nombre": "Rio Consulado 1652",
+    "lat": 19.46,
+    "lng": -99.12,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 62150,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 841.9,
+      "pauta": 518.47,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-02-001",
+        "tipo": "Apagado total",
+        "fecha": "2026-04-02",
+        "estado": "Cerrado",
+        "costo": 841.9,
+        "descripcion": "Apagado total. 3 técnicos (1 hora), 1 agente soporte (1 hora), 12L gasolina, 1 vehículo (2 horas transporte)."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 518.47,
+        "descripcion": "Programación de pauta digital - 4 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_03_3350",
+    "unidad": "ECOVALLAS",
+    "nombre": "Viaducto 106",
+    "lat": 19.4,
+    "lng": -99.13,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 69200,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 2737.8,
+      "pauta": 1036.93,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-17-001",
+        "tipo": "Fuera de línea (internet)",
+        "fecha": "2026-04-17",
+        "estado": "Cerrado",
+        "costo": 947.95,
+        "descripcion": "Fuera de línea por falla de internet. 3 técnicos (1 hora), 1 agente soporte (2 horas), 12L gasolina, 1 vehículo (2 horas transporte)."
+      },
+      {
+        "id": "TK-2026-04-23-001",
+        "tipo": "Fuera de línea (internet)",
+        "fecha": "2026-04-23",
+        "estado": "Cerrado",
+        "costo": 947.95,
+        "descripcion": "Fuera de línea por falla de internet. 3 técnicos (1 hora), 1 agente soporte (2 horas), 12L gasolina, 1 vehículo (2 horas transporte)."
+      },
+      {
+        "id": "TK-2026-04-29-001",
+        "tipo": "Fuera de línea (NUC)",
+        "fecha": "2026-04-29",
+        "estado": "Cerrado",
+        "costo": 841.9,
+        "descripcion": "Fuera de línea por falla en NUC. 3 técnicos (1 hora), 1 agente soporte (1 hora), 12L gasolina, 1 vehículo (2 horas transporte)."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1036.93,
+        "descripcion": "Programación de pauta digital - 8 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MPG_01_3229",
+    "unidad": "ECOVALLAS",
+    "nombre": "Canal de Miramontes 2640",
+    "lat": 19.32,
+    "lng": -99.14,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 47700,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 648.08,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 648.08,
+        "descripcion": "Programación de pauta digital - 5 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_14_3626",
+    "unidad": "ECOVALLAS",
+    "nombre": "Av. Juárez 95 1/2 Reforma",
+    "lat": 19.434,
+    "lng": -99.144,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 63000,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 1425.78,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1425.78,
+        "descripcion": "Programación de pauta digital - 11 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_3626",
+    "unidad": "ECOVALLAS",
+    "nombre": "Av. Juárez 95 2/2 Juarez",
+    "lat": 19.434,
+    "lng": -99.144,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 65700,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 1839.87,
+      "pauta": 2203.48,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-07-001",
+        "tipo": "Fuera de línea (internet)",
+        "fecha": "2026-04-07",
+        "estado": "Cerrado",
+        "costo": 893.13,
+        "descripcion": "Fuera de línea por falla de internet. 3 técnicos (2 horas), 1 agente soporte (1.5 horas), 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-19-001",
+        "tipo": "Adicional con grafiti",
+        "fecha": "2026-04-19",
+        "estado": "Cerrado",
+        "costo": 473.37,
+        "descripcion": "Limpieza de grafiti. 1 técnico (2 horas), 1 agente soporte (1 hora), 2L gasolina, 1 vehículo. Insumos: Trapo industrial, thinner."
+      },
+      {
+        "id": "TK-2026-04-22-001",
+        "tipo": "Adicional con grafiti",
+        "fecha": "2026-04-22",
+        "estado": "Cerrado",
+        "costo": 473.37,
+        "descripcion": "Limpieza de grafiti. 1 técnico (2 horas), 1 agente soporte (1 hora), 2L gasolina, 1 vehículo. Insumos: Trapo industrial, thinner."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 2203.48,
+        "descripcion": "Programación de pauta digital - 17 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_02_3601",
+    "unidad": "ECOVALLAS",
+    "nombre": "Viad. Tlalpan 5357",
+    "lat": 19.28,
+    "lng": -99.14,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 49800,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 520.6,
+      "pauta": 518.47,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-21-001",
+        "tipo": "Adicional con grafiti",
+        "fecha": "2026-04-21",
+        "estado": "Cerrado",
+        "costo": 520.6,
+        "descripcion": "Limpieza de grafiti. 1 técnico (1 hora), 1 agente soporte (1 hora), 2L gasolina, 1 vehículo (2 horas transporte). Insumos: Trapo industrial, thinner."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 518.47,
+        "descripcion": "Programación de pauta digital - 4 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_06_3184",
+    "unidad": "ECOVALLAS",
+    "nombre": "San Antonio Abad 122",
+    "lat": 19.41,
+    "lng": -99.14,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 51200,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 947.95,
+      "pauta": 907.32,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-23-001",
+        "tipo": "Fuera de línea (NUC)",
+        "fecha": "2026-04-23",
+        "estado": "Cerrado",
+        "costo": 947.95,
+        "descripcion": "Fuera de línea por falla en NUC. 3 técnicos (1 hora), 1 agente soporte (2 horas), 12L gasolina, 1 vehículo (2 horas transporte)."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 907.32,
+        "descripcion": "Programación de pauta digital - 7 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_07_3619",
+    "unidad": "ECOVALLAS",
+    "nombre": "Av. Prado Norte 130",
+    "lat": 19.42,
+    "lng": -99.21,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 50190.36,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 946.16,
+      "pauta": 1814.63,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-08-001",
+        "tipo": "Fuera de línea (internet)",
+        "fecha": "2026-04-08",
+        "estado": "Cerrado",
+        "costo": 946.16,
+        "descripcion": "Fuera de línea por falla de internet. 3 técnicos (2 horas), 1 agente soporte (2 horas), 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1814.63,
+        "descripcion": "Programación de pauta digital - 14 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_3643",
+    "unidad": "ECOVALLAS",
+    "nombre": "Río Consulado 649",
+    "lat": 19.45,
+    "lng": -99.13,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 55400,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 777.7,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 777.7,
+        "descripcion": "Programación de pauta digital - 6 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_02_3192",
+    "unidad": "ECOVALLAS",
+    "nombre": "Tlalpan 2520 (Xotepingo)",
+    "lat": 19.33,
+    "lng": -99.15,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 40600,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 1107.03,
+      "pauta": 518.47,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-15-001",
+        "tipo": "Fuera de línea (NUC)",
+        "fecha": "2026-04-15",
+        "estado": "Cerrado",
+        "costo": 1107.03,
+        "descripcion": "Fuera de línea por falla en NUC. 3 técnicos (2 horas), 1 agente soporte (1.5 horas), 12L gasolina, 1 vehículo (2 horas transporte)."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 518.47,
+        "descripcion": "Programación de pauta digital - 4 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_02_3641",
+    "unidad": "ECOVALLAS",
+    "nombre": "Popocatépetl145",
+    "lat": 19.36,
+    "lng": -99.16,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 39000,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 1154.0,
+      "pauta": 1166.55,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-02-001",
+        "tipo": "Módulos con fallas",
+        "fecha": "2026-04-02",
+        "estado": "Cerrado",
+        "costo": 1154.0,
+        "descripcion": "Módulos con fallas. 3 técnicos (2 horas), 1 agente soporte (1 hora), 12L gasolina, 1 vehículo (2 horas transporte). Refacción: Cable de datos plano para módulo ($100)."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1166.55,
+        "descripcion": "Programación de pauta digital - 9 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_3638",
+    "unidad": "ECOVALLAS",
+    "nombre": "C. Rupias",
+    "lat": 19.44,
+    "lng": -99.11,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 70890,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 1036.93,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1036.93,
+        "descripcion": "Programación de pauta digital - 8 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_07_3599",
+    "unidad": "ECOVALLAS",
+    "nombre": "Av. Altavista 32",
+    "lat": 19.35,
+    "lng": -99.19,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 66400,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 259.23,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 259.23,
+        "descripcion": "Programación de pauta digital - 2 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_05_3368",
+    "unidad": "ECOVALLAS",
+    "nombre": "Prolongacion Reforma 2754",
+    "lat": 19.38,
+    "lng": -99.23,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 51500,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 53.03,
+      "pauta": 1685.02,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-001",
+        "tipo": "Falla en el brillo",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 53.03,
+        "descripcion": "Falla en el brillo - diagnóstico remoto. 1 agente soporte (0.5 horas)."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1685.02,
+        "descripcion": "Programación de pauta digital - 13 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_14_3351",
+    "unidad": "ECOVALLAS",
+    "nombre": "Tlalpan 2050",
+    "lat": 19.35,
+    "lng": -99.16,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 50900,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 1214.16,
+      "pauta": 907.32,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-29-001",
+        "tipo": "Pantalla con sellos",
+        "fecha": "2026-04-29",
+        "estado": "Cerrado",
+        "costo": 1214.16,
+        "descripcion": "Pantalla con sellos. 3 técnicos (1 hora), 1 agente soporte (1.5 horas), 1 programador (2 pautas), 12L gasolina, 1 vehículo (2 horas transporte). Insumos: Trapo industrial, thinner."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 907.32,
+        "descripcion": "Programación de pauta digital - 7 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_06_3280",
+    "unidad": "ECOVALLAS",
+    "nombre": "Insurgentes Sur 4222",
+    "lat": 19.33,
+    "lng": -99.19,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 43750,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 841.9,
+      "pauta": 259.23,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-21-001",
+        "tipo": "Módulos con fallas",
+        "fecha": "2026-04-21",
+        "estado": "Cerrado",
+        "costo": 841.9,
+        "descripcion": "Módulos con fallas. 3 técnicos (1 hora), 1 agente soporte (1 hora), 12L gasolina, 1 vehículo (2 horas transporte)."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 259.23,
+        "descripcion": "Programación de pauta digital - 2 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_06_2462",
+    "unidad": "ECOVALLAS",
+    "nombre": "Marina Nacional 175",
+    "lat": 19.44,
+    "lng": -99.19,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 45000,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 1555.4,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1555.4,
+        "descripcion": "Programación de pauta digital - 12 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_09_3489",
+    "unidad": "ECOVALLAS",
+    "nombre": "Division del Norte 247",
+    "lat": 19.38,
+    "lng": -99.17,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 60200,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 106.06,
+      "pauta": 1425.78,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-15-001",
+        "tipo": "Actualización en broadcasting",
+        "fecha": "2026-04-15",
+        "estado": "Cerrado",
+        "costo": 53.03,
+        "descripcion": "Actualización en broadcasting. 1 agente soporte remoto (0.5 horas)."
+      },
+      {
+        "id": "TK-2026-04-15-002",
+        "tipo": "Actualización en broadcasting",
+        "fecha": "2026-04-15",
+        "estado": "Cerrado",
+        "costo": 53.03,
+        "descripcion": "Actualización en broadcasting. 1 agente soporte remoto (0.5 horas)."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1425.78,
+        "descripcion": "Programación de pauta digital - 11 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_04_3622",
+    "unidad": "ECOVALLAS",
+    "nombre": "Parque Lira",
+    "lat": 19.4054,
+    "lng": -99.1916,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 47700,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 10162.83,
+      "pauta": 1555.4,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-001",
+        "tipo": "Adicional con grafiti",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 402.67,
+        "descripcion": "Limpieza de grafiti. 1 técnico (1 hora), 1 agente soporte (1 hora), 2L gasolina, 1 vehículo. Insumos: Trapo industrial, thinner."
+      },
+      {
+        "id": "TK-2026-04-09-001",
+        "tipo": "Fuera de línea (NUC)",
+        "fecha": "2026-04-09",
+        "estado": "Cerrado",
+        "costo": 893.13,
+        "descripcion": "Fuera de línea por falla en NUC. 3 técnicos (2 horas), 1 agente soporte (1.5 horas), 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-14-001",
+        "tipo": "Fuera de línea (NUC)",
+        "fecha": "2026-04-14",
+        "estado": "Cerrado",
+        "costo": 946.16,
+        "descripcion": "Fuera de línea por falla en NUC. 3 técnicos (2 horas), 1 agente soporte (2 horas), 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-15-001",
+        "tipo": "Fuera de línea (NUC)",
+        "fecha": "2026-04-15",
+        "estado": "Cerrado",
+        "costo": 7552.21,
+        "descripcion": "Fuera de línea por falla en NUC. 3 técnicos (2 horas), 1 agente soporte (3 horas), 8L gasolina, 1 vehículo. Refacción: Cambio de NUC (Usado) - $6,500."
+      },
+      {
+        "id": "TK-2026-04-17-001",
+        "tipo": "Pantallas en negro",
+        "fecha": "2026-04-17",
+        "estado": "Cerrado",
+        "costo": 7128.01,
+        "descripcion": "Pantallas en negro. 3 técnicos (1 hora), 1 agente soporte (1 hora), 8L gasolina, 1 vehículo. Refacción: Cambio de NUC (Usado) - $6,500."
+      },
+      {
+        "id": "TK-2026-04-24-001",
+        "tipo": "Tarjetas Alarmadas",
+        "fecha": "2026-04-24",
+        "estado": "Cerrado",
+        "costo": 840.11,
+        "descripcion": "Tarjetas alarmadas. 3 técnicos (1 hora), 1 agente soporte (3 horas), 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1555.4,
+        "descripcion": "Programación de pauta digital - 12 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_04_3617",
+    "unidad": "ECOVALLAS",
+    "nombre": "Insurgentes sur 85",
+    "lat": 19.41,
+    "lng": -99.16,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 0,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 0,
+      "vandalismo": 0
+    },
+    "tickets": []
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_3381",
+    "unidad": "ECOVALLAS",
+    "nombre": "Manuel Navarrete",
+    "lat": 19.41,
+    "lng": -99.18,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 46150,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 1555.4,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 1555.4,
+        "descripcion": "Programación de pauta digital - 12 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_3650",
+    "unidad": "ECOVALLAS",
+    "nombre": "Rio de la Piedad",
+    "lat": 19.42,
+    "lng": -99.13,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 75030.8,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 1261.03,
+      "pauta": 0,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-15-001",
+        "tipo": "Adicional con grafiti",
+        "fecha": "2026-04-15",
+        "estado": "Cerrado",
+        "costo": 402.67,
+        "descripcion": "Limpieza de grafiti. 1 técnico (1 hora), 1 agente soporte (1 hora), 2L gasolina, 1 vehículo. Insumos: Trapo industrial, thinner."
+      },
+      {
+        "id": "TK-2026-04-15-002",
+        "tipo": "Adicional con grafiti",
+        "fecha": "2026-04-15",
+        "estado": "Cerrado",
+        "costo": 455.69,
+        "descripcion": "Limpieza de grafiti. 1 técnico (1 hora), 1 agente soporte (1.5 horas), 2L gasolina, 1 vehículo. Insumos: Trapo industrial, thinner."
+      },
+      {
+        "id": "TK-2026-04-23-001",
+        "tipo": "Adicional con grafiti",
+        "fecha": "2026-04-23",
+        "estado": "Cerrado",
+        "costo": 402.67,
+        "descripcion": "Limpieza de grafiti. 1 técnico (1 hora), 1 agente soporte (1 hora), 2L gasolina, 1 vehículo. Insumos: Trapo industrial, thinner."
+      }
+    ]
+  },
+  {
+    "id": "MX_EM_EV_MGP_01_0004",
+    "unidad": "ECOVALLAS",
+    "nombre": "Francisco Terrazas",
+    "lat": 19.38,
+    "lng": -99.25,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 45000,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 958.71,
+      "pauta": 0,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-09-001",
+        "tipo": "Adicional con grafiti",
+        "fecha": "2026-04-09",
+        "estado": "Cerrado",
+        "costo": 402.67,
+        "descripcion": "Limpieza de grafiti. 1 técnico (1 hora), 1 agente soporte (1 hora), 2L gasolina, 1 vehículo. Insumos: Trapo industrial, thinner."
+      },
+      {
+        "id": "TK-2026-04-29-001",
+        "tipo": "Fuera de línea (NUC)",
+        "fecha": "2026-04-29",
+        "estado": "Cerrado",
+        "costo": 556.04,
+        "descripcion": "Fuera de línea por falla en NUC. 3 técnicos (1 hora), 1 agente soporte (1 hora), 5L gasolina, 1 vehículo."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_13_2768",
+    "unidad": "ECOVALLAS",
+    "nombre": "Mariano Escobedo 570",
+    "lat": 19.43,
+    "lng": -99.19,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 21600,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 17337.24,
+      "pauta": 648.08,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-08-001",
+        "tipo": "Fuera de línea (internet)",
+        "fecha": "2026-04-08",
+        "estado": "Cerrado",
+        "costo": 996.16,
+        "descripcion": "Fuera de línea por falla de internet. 3 técnicos (2 horas), 1 agente soporte (2 horas), 8L gasolina, 1 vehículo. Refacción: 1 cable de red ($50)."
+      },
+      {
+        "id": "TK-2026-04-22-001",
+        "tipo": "Actualización en broadcasting",
+        "fecha": "2026-04-22",
+        "estado": "Cerrado",
+        "costo": 53.03,
+        "descripcion": "Actualización en broadcasting. 1 agente soporte remoto (0.5 horas)."
+      },
+      {
+        "id": "TK-2026-04-22-002",
+        "tipo": "Fuera de línea (NUC)",
+        "fecha": "2026-04-22",
+        "estado": "Cerrado",
+        "costo": 734.06,
+        "descripcion": "Fuera de línea por falla en NUC. 3 técnicos (1 hora), 1 agente soporte (2 horas), 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-26-001",
+        "tipo": "Fuera de línea (NUC)",
+        "fecha": "2026-04-26",
+        "estado": "Cerrado",
+        "costo": 15925.98,
+        "descripcion": "Fuera de línea por falla en NUC. 3 técnicos (1 hora), 1 agente soporte (2 horas), 8L gasolina (2 días), 1 vehículo. Refacción: Cambio de NUC (Nuevo) - $15,000."
+      },
+      {
+        "id": "TK-2026-04-28-001",
+        "tipo": "Fuera de línea (NUC)",
+        "fecha": "2026-04-28",
+        "estado": "Cerrado",
+        "costo": 628.01,
+        "descripcion": "Fuera de línea por falla en NUC. 3 técnicos (1 hora), 1 agente soporte (1 hora), 8L gasolina, 1 vehículo."
+      },
+      {
+        "id": "TK-2026-04-01-PAUTA",
+        "tipo": "Programación Pauta",
+        "fecha": "2026-04-01",
+        "estado": "Cerrado",
+        "costo": 648.08,
+        "descripcion": "Programación de pauta digital - 5 pautas."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_01_3639",
+    "unidad": "ECOVALLAS",
+    "nombre": "Moliere 88",
+    "lat": 19.43,
+    "lng": -99.2,
+    "foto": "https://images.unsplash.com/photo-1580130058021-3652e7de1812?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 169604.95,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 628.01,
+      "pauta": 0,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-22-001",
+        "tipo": "Camara fuera de linea",
+        "fecha": "2026-04-22",
+        "estado": "Cerrado",
+        "costo": 628.01,
+        "descripcion": "Cámara fuera de línea. 3 técnicos (1 hora), 1 agente soporte (1 hora), 8L gasolina, 1 vehículo."
+      }
+    ]
+  },
+  {
+    "id": "MX_CM_EV_MGP_07_3647",
+    "unidad": "ECOVALLAS",
+    "nombre": "Liga Maya",
+    "lat": 19.37,
+    "lng": -99.21,
+    "foto": "https://images.unsplash.com/photo-1616832880699-8541b04005ea?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 720000,
+      "obraCivil": 20040,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 0,
+      "pauta": 0,
+      "vandalismo": 0
+    },
+    "tickets": []
+  },
+  {
+    "id": "MX_CM_EV_MGP_03_3640",
+    "unidad": "ECOVALLAS",
+    "nombre": "Periferico 2250 (Leon Felipe)",
+    "lat": 19.36,
+    "lng": -99.2,
+    "foto": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&w=600&q=80",
+    "capex": {
+      "costoPantalla": 0,
+      "obraCivil": 22300,
+      "costoEstructura": 121000,
+      "costoModificacion": 0,
+      "costoMedidor": 38000,
+      "costoInstalacion": 40000,
+      "novastar": 3000,
+      "ups": 5200,
+      "nuc": 12000,
+      "pastillaTri": 3577.2,
+      "pastilla20A": 1600,
+      "camara": 6000,
+      "teltonika": 12500,
+      "poe": 1100
+    },
+    "operacion": {
+      "cfe": 15000,
+      "internetFibra": 950,
+      "internetSatelital": 2000,
+      "licTeltonika": 100,
+      "licTeamViewer": 498,
+      "licCMS": 500,
+      "licHikvision": 137,
+      "licUPS": 28,
+      "licQTM": 780
+    },
+    "mantenimiento": {
+      "preventivo": 0,
+      "correctivo": 3110.06,
+      "pauta": 0,
+      "vandalismo": 0
+    },
+    "tickets": [
+      {
+        "id": "TK-2026-04-25-001",
+        "tipo": "Módulos con fallas",
+        "fecha": "2026-04-25",
+        "estado": "Cerrado",
+        "costo": 841.9,
+        "descripcion": "Módulos con fallas. 3 técnicos (1 hora), 1 agente soporte (1 hora), 12L gasolina, 1 vehículo (2 horas transporte)."
+      },
+      {
+        "id": "TK-2026-04-29-001",
+        "tipo": "Fuera de línea (NUC)",
+        "fecha": "2026-04-29",
+        "estado": "Cerrado",
+        "costo": 1054.0,
+        "descripcion": "Fuera de línea por falla en NUC. 3 técnicos (2 horas), 1 agente soporte (1 hora), 12L gasolina, 1 vehículo (2 horas transporte)."
+      },
+      {
+        "id": "TK-2026-04-29-002",
+        "tipo": "Pantalla con sellos",
+        "fecha": "2026-04-29",
+        "estado": "Cerrado",
+        "costo": 1214.16,
+        "descripcion": "Pantalla con sellos. 3 técnicos (1 hora), 1 agente soporte (1.5 horas), 1 programador (2 pautas), 12L gasolina, 1 vehículo (2 horas transporte). Insumos: Trapo industrial, thinner."
+      }
+    ]
+  }
+]
