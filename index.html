@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GPOVALLAS - Explorer POO Framework</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;900&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="stylesheet" href="css/styles.css">
     
     <style>
@@ -23,58 +24,52 @@
             filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.1));
         }
         
-        /* Ajustes para el logo principal: Más grande */
         .main-logo-img {
-            max-width: 480px; /* Tamaño mucho más grande */
+            max-width: 480px;
             max-height: 360px;
             object-fit: contain;
             filter: drop-shadow(0px 4px 10px rgba(0,0,0,0.15));
         }
 
-        /* --- NUEVO: ANIMACIÓN DE INTRODUCCIÓN --- */
-        
-        /* 1. Animación del Logo: Inicia en el centro y sube */
+        .pantallas-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 15px;
+        }
+        .pantalla-card:hover {
+            box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+            transform: translateY(-3px);
+            border-color: var(--theme-color) !important;
+        }
+
+        .modal-box {
+            max-height: 85vh;
+            overflow-y: auto;
+        }
+
         .gpovallas-logo {
             margin-bottom: 50px;
             opacity: 0;
-            /* Duración total 1.8s, usando una curva suave */
             animation: logoIntro 1.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
         }
 
         @keyframes logoIntro {
-            0% {
-                opacity: 0;
-                transform: translateY(20vh) scale(1.15); /* Empieza abajo y más grande */
-            }
-            30% {
-                opacity: 1;
-                transform: translateY(20vh) scale(1.15); /* Se mantiene en el centro para ser leído */
-            }
-            100% {
-                opacity: 1;
-                transform: translateY(0) scale(1); /* Sube a su posición normal */
-            }
+            0% { opacity: 0; transform: translateY(20vh) scale(1.15); }
+            30% { opacity: 1; transform: translateY(20vh) scale(1.15); }
+            100% { opacity: 1; transform: translateY(0) scale(1); }
         }
 
-        /* 2. Animación de las Tarjetas: Aparecen después de que el logo sube */
         .intro-grid {
             display: flex;
             gap: 40px;
-            opacity: 0; /* Ocultas al principio */
-            /* Retraso de 1.2s para esperar al logo */
+            opacity: 0;
             animation: cardsIntro 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
             animation-delay: 1.2s; 
         }
 
         @keyframes cardsIntro {
-            0% {
-                opacity: 0;
-                transform: translateY(40px); /* Empiezan ligeramente abajo */
-            }
-            100% {
-                opacity: 1;
-                transform: translateY(0); /* Suben a su lugar */
-            }
+            0% { opacity: 0; transform: translateY(40px); }
+            100% { opacity: 1; transform: translateY(0); }
         }
     </style>
 </head>
@@ -82,31 +77,25 @@
     <div class="white-transition" id="transition-layer"></div>
 
     <div id="intro-view">
-        
         <div class="gpovallas-logo">
             <img src="assets/logos/GPO.png" alt="Logo Central GPO" class="main-logo-img">
         </div>
-        
         <div class="intro-grid">
-            
             <div class="intro-card eco" onclick="app.iniciar('ECOVALLAS', 'eco')">
                 <div class="intro-card-content">
                     <img src="assets/logos/ecovallas.png" alt="Logo Ecovallas" class="intro-logo">
                 </div>
             </div>
-
             <div class="intro-card vv" onclick="app.iniciar('VIA VERDE', 'vv')">
                 <div class="intro-card-content">
                     <img src="assets/logos/viaverde.png" alt="Logo Via Verde" class="intro-logo">
                 </div>
             </div>
-
             <div class="intro-card bb" onclick="app.iniciar('BIOBOX', 'bb')">
                 <div class="intro-card-content">
                     <img src="assets/logos/biobox.png" alt="Logo BioBox" class="intro-logo">
                 </div>
             </div>
-
         </div>
     </div>
 
@@ -115,16 +104,14 @@
             <div class="topbar-left">
                 <button class="btn-volver" onclick="app.volver()">← Cambiar Unidad</button>
                 <div class="topbar-title" id="lbl-unidad">UNIDAD</div>
-                
                 <div class="search-wrapper">
                     <input type="text" id="global-search" placeholder="Buscar pantalla por ID o Nombre..." autocomplete="off">
                     <div class="search-dropdown" id="search-dropdown"></div>
                 </div>
-
             </div>
             <div class="topbar-actions">
-                <button class="btn-action outline" onclick="app.abrirModalPantallas()">Resumen de Pantallas</button>
-                <button class="btn-action" onclick="app.abrirModalGeneral()">Resumen General</button>
+                <button class="btn-action outline" onclick="app.abrirModalPantallas()">📍 Resumen de Pantallas</button>
+                <button class="btn-action" onclick="app.abrirModalGeneral()">📊 Resumen General</button>
             </div>
         </header>
         <main class="diagram-area" id="diagram-canvas">
@@ -133,7 +120,7 @@
     </div>
 
     <div class="modal-overlay" id="modal-data">
-        <div class="modal-box" style="width: 600px;">
+        <div class="modal-box" style="width: 900px; max-width: 95vw;">
             <div class="modal-header">
                 <h2 style="font-weight: 900; font-size: 1.4rem;" id="md-title">TÍTULO</h2>
                 <div style="font-size: 0.8rem; opacity: 0.9;" id="md-sub">Subtítulo</div>
@@ -144,16 +131,16 @@
                     <div id="md-lbl-total" style="font-size: 0.75rem; color: var(--text-muted); font-weight: 700; text-transform: uppercase;">Total</div>
                     <div id="md-total" style="font-family: monospace; font-size: 2.8rem; font-weight: 900; color: var(--theme-color);">0</div>
                 </div>
-                <h3 id="md-lbl-breakdown" style="font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 12px;">Desglose</h3>
+                <h3 id="md-lbl-breakdown" style="font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 12px;">Desglose por Componente</h3>
                 <div id="md-breakdown" style="display: flex; flex-direction: column; gap: 8px;"></div>
             </div>
         </div>
     </div>
 
     <div class="modal-overlay" id="modal-pantallas">
-        <div class="modal-box" style="width: 800px; max-width: 95vw;">
+        <div class="modal-box" style="width: 1000px; max-width: 95vw;">
             <div class="modal-header">
-                <h2 style="font-weight: 900; font-size: 1.4rem;">INVENTARIO DE PANTALLAS</h2>
+                <h2 style="font-weight: 900; font-size: 1.4rem;">📍 INVENTARIO DE PANTALLAS</h2>
                 <div style="font-size: 0.8rem; opacity: 0.9;">Seleccione una ubicación para auditar su expediente completo</div>
                 <button class="modal-close" data-target="modal-pantallas">✕</button>
             </div>
@@ -163,6 +150,7 @@
         </div>
     </div>
 
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script type="module" src="js/main.js"></script>
 </body>
 </html>
