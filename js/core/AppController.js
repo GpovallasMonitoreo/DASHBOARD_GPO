@@ -635,7 +635,7 @@ seleccionarComponente(key, nodeEl) {
                     
                     ${stats.maxSpender.id ? `
                     <div style="margin-top: 10px; background: #fff; padding: 12px; border-left: 4px solid #f59e0b; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
-                        <div style="color: #92400e; font-weight: 900; font-size: 0.7rem; margin-bottom: 4px;">📊 MAYOR CONSUMO</div>
+                        <div style="color: #92400e; font-weight: 900; font-size: 0.7rem; margin-bottom: 4px;">Inversión</div>
                         <div style="font-weight: 800; font-size: 0.9rem; color: #1e293b;">${stats.maxSpender.id}</div>
                         <div style="font-size: 0.7rem; color: #64748b;">Gasto: <b>${this.formatMoney(stats.maxSpender.costo)}</b></div>
                     </div>` : ''}
