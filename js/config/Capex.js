@@ -1,6 +1,5 @@
 export const CapexDiccionario = {
     costoPantalla: "Pantalla",
-    obraCivil: "Obra civil",
     costoEstructura: "Estructura",
     costoMedidor: "Medidor CFE",
     costoInstalacion: "Instalación eléctrica",
